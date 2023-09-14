@@ -1,8 +1,13 @@
 package com.barabanov.tests;
 
+import com.codeborne.selenide.WebDriverRunner;
+import com.codeborne.selenide.commands.TakeScreenshot;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.baseUrl;
